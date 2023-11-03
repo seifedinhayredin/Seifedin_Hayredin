@@ -1,59 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio website</title>
-    <link rel = "stylesheet" type = "text/css" href = "myStyle.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>My portfolio website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <style>
+    #map {
+        height: 200px;
+        width: 60%;
+    }
+</style>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+ 
 </head>
+
 <body>
 
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
-    <nav>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/mypro.JPG" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Seifedin Hayredin</a></h1>
+        <div class="social-links mt-3 text-center">
+          <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
+          <a href="https://www.facebook.com/seifedin.abdela.1" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <!--<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>-->
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="https://www.linkedin.com/in/seifedin-mohammed-9b3919243" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li class="dropdown">
-            <a href="#" class="dropbtn" style="background-color: pink;">
-              <img src="menu.PNG"></img>
-            </a>
-            <div class="dropdown-content">
-              <a href="index.html">Home</a>
-              <a href="blog.html">Blog</a>
-              <a href="contact.html">Contact</a>
-              <a href="about.html">About</a>
-              <a href="CV Updated.pdf" target="_blank">Resume</a>
-            </div>
-          </li>
+          <li><a href="#heros" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Skills</span></a></li>
+          <li><a href="#testimonials" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Portfolio</span></a></li>
+         <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
-      </nav>
-      <img src="myph.JPG" width="300" height="200" />
-      <br />
-      <br />
-      <h1> My Portfolio Website</h1>
-      <p>
-        I have developed this portfolio website from the scratch
-      </p>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
 
-      <hr></hr>
-      <footer>
-        Developed by <a href="about.html">Seifedin </a>@2023 <br />
-        <a href="https://t.me//seyfbing">
-          <img src="teleg.jpg" width="50" height="30"></img>
-        </a>
-        <a href="www.facebook.com/sey fedin">
-          <img src="fb.jpg" width="70" height="40"></img>
-        </a>
-        <a href="www.linkedin.com/in/seifedin-mohammed-9b3919243">
-          <img src="linkdin.png" width="50" height="30"></img>
-        </a>
-      </footer>
+  <!-- ======= Hero Section ======= -->
+  <section id="heros" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Seifedin Hayredin</h1>
+      <p>I'm <b><span class="typed" data-typed-items="Graphics Designer, Developer, Freelancer, AI Enginner, Full Stack Developer"></span></b></p>
+    </div>
+  </section><!-- End Hero -->
+<br />
+<br />
+
+<hr>
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p class="fst-italic">
+            My name is <b>Seifedin Hayredin Mohammed</b>. I have bachelor degree in computer science and
+            now i am been learning masters degree in Arteficial Intelligence.
+          </p>
+          </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/mypro.JPG" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            
+              <p>
+                I am a front end developer and junior <b>AI engineer</b> and i have
+                about three years of experiance as a front end developer
+              </p>
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+            
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+251 964 088 015</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Addis Abeba, Ethiopia</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                 
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master candidate</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>seifedinhayredin@gmail.com</span></li>
+                  
+                </ul>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+   
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>I am Experianced in the following languages and Frameworks</p></div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill">Python <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">PHP <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">React <i class="val">50%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Photoshop <i class="val">60%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>The following describes about my resume.</p>
+        
+          
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Seifedin Hayredin</h4>
+              <p><em>I have 3+ years of experiance as a Front End developer and Graphic designer and 2 years as Full Stack Developer.</em></p>
+              <ul>
+                <li>Addis Abeba</li>
+                <li>(+251) 964088015</li>
+                <li>seifedinhayredin@gmail.com</li>
+              </ul>
+            </div>
+            
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Msc. candidate in Arteficial Intelligence</h4>
+              <h5>2022 - Present</h5>
+              <p><em>Adama science and Technology University</em></p>
+              <p>I have been learning Msc. degree in Arteficial Intelligence and making research in up to date technologies </div>
+            <div class="resume-item">
+              <h4>Bachelor of Science in Computer Science</h4>
+              <h5>2018 - 2021</h5>
+              <p><em>Wolaita Sodo University</em></p>
+              <p>I am graduated from Wolaita Sodo University in computer science and I have got a better understanding about recent technoloies and research areas</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Front End Developer </h4>
+              <h5>2020 - Present</h5>
+            
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Developing front end projects. </li>
+                <li>Designing user interface</li>
+            
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Graphics Designer</h4>
+              <h5>2021 - Present</h5>
+             
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+              
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+   
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolios</h2>
+          <p>I am participated in the following projects </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I have developed communication system web App which allows to transfer  files ,chatting and posting advertisement
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I have developed  <b>AI</b> based customer support chatbots which allow to qouestion and answering
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I have developed  web based hospital management system
+                 <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+               
+            </div><!-- End testimonial item -->
+
+            
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>If you have any issue, you can contact me in the following address</p></div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Addis Abeba</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>seifedinhayredin@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+251 964088015</p>
+              </div>
+              <div id = "map"></div>
+              </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    function initMap(){
+        var location = {lat: 9.033140, lng:38.750080};
+        var map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 4,
+            center: location
+        });
+       var marker = new google.maps.Marker({
+        position: location,
+        map: map
+       });
+    }
+</script>
+
+<script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyDG5MsESsivx28MU7_jXGjNdnsSnXKFNco&callback=initMap">
+
+</script>
 
 </body>
+
 </html>
